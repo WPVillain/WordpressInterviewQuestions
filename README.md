@@ -42,7 +42,7 @@ This file contains a number of WordPresss interview questions that can be used w
 * What are the steps you can take if your WordPress file is hacked?
 * What do __(), _e() and _x() do and what is the difference between these?
 * What is required to add translations to a WordPress site?
-* How would you run a custm database query?
+* How would you run a custom database query?
 
 #### Plugin Development
 
@@ -62,7 +62,6 @@ This file contains a number of WordPresss interview questions that can be used w
 
 Some interview questions taken from [Toptal](https://www.toptal.com/wordpress/interview-questions)
 
-#### Actions and Filters
 
 Consider the following code snippet. Briefly explain what changes it will achieve, who can and cannot view its effects, and at what URL WordPress will make it available.
 
@@ -79,7 +78,6 @@ function custom_menu_page_display(){
 }
 ````
 
-#### wp_enqueue_script
 
 Consider the following code snippet and explain the purpose of wp_enqueue_script. Can you figure out if something is wrong in the snippet?
 
@@ -99,7 +97,6 @@ The following line is in a function inside a theme’s “function.php” file. 
 wp_enqueue_script('custom-script', '/js/functions.js');
 ````
 
-#### Footer
 
 What is a potential problem in the following snippet of code from a WordPress theme file named footer.php?
 
@@ -110,7 +107,7 @@ What is a potential problem in the following snippet of code from a WordPress th
 </html>
 ````
 
-### Roots Stack Questions
+#### Roots Stack Questions
 
 * What are the advantages of using Bedrock?
 * Sage 9 beta is quite different from the current stable Sage 8. How so?
