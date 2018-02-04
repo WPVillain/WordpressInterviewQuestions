@@ -9,7 +9,7 @@ This file contains a number of WordPresss interview questions that can be used w
   1. [General WordPress Beginner Questions](#general-wordpress-beginner)
   2. [General WordPress Intermediate Questions](#general-wordpress-intermediate)
   3. [General WordPress Expert Questions](#general-wordpress-expert)
-  4. [Code Snippet Questions(#toptal-interview-questions)
+  4. [Code Snippet Questions](#toptal-interview-questions)
 
 #### General WordPress Beginner:
 
