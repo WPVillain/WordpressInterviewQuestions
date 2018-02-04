@@ -109,6 +109,7 @@ What is a potential problem in the following snippet of code from a WordPress th
 
 #### Roots Stack Questions
 
+
 * What are the advantages of using Bedrock?
 * Sage 9 beta is quite different from the current stable Sage 8. How so?
 * Setting up Trellis what files need changing to set up development and production
