@@ -9,7 +9,7 @@ This file contains a number of WordPresss interview questions that can be used w
   1. [General WordPress Beginner Questions](#general-wordpress-beginner)
   2. [General WordPress Intermediate Questions](#general-wordpress-intermediate)
   3. [General WordPress Expert Questions](#general-wordpress-expert)
-  4. [Code Snippet Questions](#toptal-interview-questions)
+  4. [Toptal Code Snippet Questions](#toptal-interview-questions)
 
 #### General WordPress Beginner:
 
@@ -92,14 +92,20 @@ function add_custom_script(){
 }
 ````
 
-#### Footer
-
-What is a potential problem in the following snippet of code from a WordPress theme file named “footer.php”?
+The following line is in a function inside a theme’s “function.php” file. What is wrong with this line of code?
 
 ````
-...
-        </section><!—end of body section- ->
-        <footer>All rights reserved</footer>
+wp_enqueue_script('custom-script', '/js/functions.js');
+````
+
+#### Footer
+
+What is a potential problem in the following snippet of code from a WordPress theme file named footer.php?
+
+````
+</section><!—end of body section- ->
+<footer>All rights reserved</footer>
     </body>
 </html>
 ````
+
