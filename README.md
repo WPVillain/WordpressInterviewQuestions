@@ -10,6 +10,7 @@ This file contains a number of WordPresss interview questions that can be used w
   2. [General WordPress Intermediate Questions](#general-wordpress-intermediate)
   3. [General WordPress Expert Questions](#general-wordpress-expert)
   4. [Toptal Code Snippet Questions](#toptal-interview-questions)
+  5. [Roots Stack Questions](#roots-stack-questions)
 
 #### General WordPress Beginner:
 
@@ -109,3 +110,9 @@ What is a potential problem in the following snippet of code from a WordPress th
 </html>
 ````
 
+### Roots Stack Questions
+
+* What are the advantages of using Bedrock?
+* Sage 9 beta is quite different from the current stable Sage 8. How so?
+* Setting up Trellis what files need changing to set up development and production
+* How do you ssh into a Vagrant Box?
