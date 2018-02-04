@@ -56,11 +56,16 @@ This file contains a number of WordPresss interview questions that can be used w
 * What method would you use to add a newsletter signup form to every page on the site?
 * How would you add a menu to a theme?
 
+### Toptal Interview Questions
+
+Some interview questions taken from [Toptal](https://www.toptal.com/wordpress/interview-questions)
+
 #### Actions and Filters
 
 Consider the following code snippet. Briefly explain what changes it will achieve, who can and cannot view its effects, and at what URL WordPress will make it available.
 
-````add_action('admin_menu', 'custom_menu');
+````
+add_action('admin_menu', 'custom_menu');
 
 function custom_menu(){
     add_menu_page('Custom Menu', 'Custom Menu', 'manage_options', 'custom-menu-slug', 'custom_menu_page_display');
@@ -69,4 +74,31 @@ function custom_menu(){
 function custom_menu_page_display(){
     echo '<h1>Hello World</h1>';
     echo '<p>This is a custom page</p>';
-}````
+}
+````
+
+#### wp_enqueue_script
+
+Consider the following code snippet and explain the purpose of wp_enqueue_script. Can you figure out if something is wrong in the snippet?
+
+````
+add_custom_script();
+function add_custom_script(){
+    wp_enqueue_script( 
+        'jquery-custom-script',
+        plugin_dir_url( __FILE__ ).'js/jquery-custom-script.js'
+    );
+}
+````
+
+#### Footer
+
+What is a potential problem in the following snippet of code from a WordPress theme file named “footer.php”?
+
+````
+...
+        </section><!—end of body section- ->
+        <footer>All rights reserved</footer>
+    </body>
+</html>
+````
