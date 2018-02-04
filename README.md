@@ -55,3 +55,18 @@ This file contains a number of WordPresss interview questions that can be used w
 * How would you change the number of posts displayed in the archive for different post types?
 * What method would you use to add a newsletter signup form to every page on the site?
 * How would you add a menu to a theme?
+
+#### Actions and Filters
+
+Consider the following code snippet. Briefly explain what changes it will achieve, who can and cannot view its effects, and at what URL WordPress will make it available.
+
+````add_action('admin_menu', 'custom_menu');
+
+function custom_menu(){
+    add_menu_page('Custom Menu', 'Custom Menu', 'manage_options', 'custom-menu-slug', 'custom_menu_page_display');
+}
+
+function custom_menu_page_display(){
+    echo '<h1>Hello World</h1>';
+    echo '<p>This is a custom page</p>';
+}````
